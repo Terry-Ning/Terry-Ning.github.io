@@ -1,0 +1,30 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE_AUTHOR } from '../consts';
+---
+
+<Page title={`About ${SITE_AUTHOR}`} description="Education and background.">
+	<h1>About</h1>
+	<p class="lede">
+		{SITE_AUTHOR}. Ph.D. student in Computer Science at CUNY. Previously studied mechanical
+		engineering at Sichuan University.
+	</p>
+
+	<h2>Education</h2>
+	<ul class="edu-list">
+		<li>
+			<span class="edu-years">2023–2028 (expected)</span>
+			<div>
+				<strong>The City University of New York (CUNY)</strong>
+				<p>Ph.D. student, Computer Science</p>
+			</div>
+		</li>
+		<li>
+			<span class="edu-years">2019–2023</span>
+			<div>
+				<strong>Sichuan University</strong>
+				<p>Bachelor of Engineering, Mechanical Engineering</p>
+			</div>
+		</li>
+	</ul>
+</Page>

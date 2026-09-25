@@ -1,0 +1,33 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE_AUTHOR, SITE_DESCRIPTION } from '../consts';
+---
+
+<Page>
+	<section class="hero">
+		<img class="portrait" src="/cning.jpeg" alt={SITE_AUTHOR} width="112" height="112" />
+		<div>
+			<h1>{SITE_AUTHOR}</h1>
+			<p class="lede">{SITE_DESCRIPTION}</p>
+		</div>
+	</section>
+
+	<h2>In progress</h2>
+	<ul class="plain-list">
+		<li>
+			<p>An agentic system with evolution and alignment</p>
+		</li>
+	</ul>
+
+	<div class="section-head">
+		<h2>Papers</h2>
+		<a href="/papers">All papers</a>
+	</div>
+	<div class="paper-row">
+		<div class="post-meta">2026/3/4</div>
+		<h3>PoE Agent</h3>
+		<div class="actions">
+			<a class="button" href="/PoE_agent-1.pdf">Open PDF</a>
+		</div>
+	</div>
+</Page>
