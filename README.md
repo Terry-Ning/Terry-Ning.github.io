@@ -1,10 +1,6 @@
 # Personal site
 
-Astro site for Cheng Ning: papers and an about page.
-
-## Papers
-
-PDFs in `public/` are linked from `/papers`.
+Astro site for Cheng Ning.
 
 Live at [https://terry-ning.github.io](https://terry-ning.github.io).
 
